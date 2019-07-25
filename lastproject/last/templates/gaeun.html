@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>이가은 페이지</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        *{
+            text-align: center;
+        }
+        h1{
+            font-family: 'Pacifico', cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:red;">Making Sandwich</h1>
+    <h3>멋쟁이 사자처럼 한국외대 서울캠 7기 이가은</h3>
+
+    <div style="position: relative;  left:250px; width:300px; border: 1px solid black; margin-bottom: 50px;">
+        <p>샌드위치는 가벼운 간식은 물론 훌륭한 한 끼 식사로도 제 역할을 톡톡히 합니다. 그 종류도 다양해지고 완성도 역시 높아지고 있습니다. 들어가는 재료를 접시에 펼쳐보면 여느 식사와 다르지 않게 영양학적으로 균형이 잘 잡혀있습니다. 그래서 샌드위치를 만들고 먹는 것을 좋아합니다.</p>
+            <br>
+    </div>
+        
+    <img src="{% static 'sandwich.jpg' %}">
+
+</body>
+</html>

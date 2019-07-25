@@ -1,0 +1,39 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YUMPAGE</title>
+    <link href="https://fonts.googleapis.com/css?family=Hanalei&display=swap" rel="stylesheet">
+    <style>
+        *{
+            text-align: center;
+        }
+        h1{
+            font-family: 'Hanalei', cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: green;">Vacation</h1>
+    <h3>멋쟁이사자처럼 한국외대 서울캠 7기 황윤영</h3>
+
+    <h3>즐거운 나루</h3>
+    <h5>여수 여행</h5>
+    <img src="{% static 'yeosu.jpg' %}" style="height:300px; width:300px">
+    <p>2019.07.13</p>
+    <h5>필름카메라 입문</h5>
+    <p>2019.07.09 ~</p>
+    <img src="{% static 'filmca.jpg' %}" style="height: 300px; width:300px;">
+    <p>2019.07.14</p>
+    <h5>콘서트 다녀오기</h5>
+    <img src="{% static 'concert.jpg' %}" style="height: 300px; width:300px; filter:flipv();transform:rotate(90deg);">
+    <p>D.I.LAND 2019.07.20</p>
+   
+
+
+
+</body>
+</html>
